@@ -1,0 +1,25 @@
+.time {
+    height: 740px;
+    background: #000;
+}
+
+.list ul li {
+    position: relative;
+    color: #fff;
+    padding-top: 10px;
+    top: 60px;
+}
+
+.week {
+    font-weight: bold;
+    letter-spacing: 1px;
+    top: 60px;
+}
+
+.break {
+   padding-bottom: 15px;
+}
+
+.pos-ce  {
+    padding-bottom: 60px;
+}

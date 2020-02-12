@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>CWB Fitness Club</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/academia.css">
+    </head>
+    <body>
+        
+        <header class="header">
+            <div class="container">
+                <a href="index.html" class="grid-4 ">
+                    <img src="img/Logo_CWB_CLUB.svg" alt="logomarca CWB Fitness Club" class="svglogo">
+                </a>
+                <nav class="grid-12 header_menu">
+                    <ul>
+                        <li><a href="academia.html">Academia</a></li>
+                        <li><a href="modalidades.html">Modalidades</a></li>
+                        <li><a href="planos.html">Planos</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="horarios.html">Horários</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="nossa-academia titulo">
+            <div class="container">
+                <div class="grid-20">
+                    <h2>Nossa <span class="destaque">Academia</span> </h2> 
+                </div>
+                    <div class="texto-academia">
+                        <p class="grid-11"> A<span class="destaque-texto"> CWB Fitness Club </span> nasce com o 
+                            objetivo de promover o bem estar 
+                            físico e mental dos seus alunos, contando para isso 
+                            com uma equipe altamente qualificada, instalações modernas 
+                            e ótima localização.</p> <br>
+                        <p class="grid-11">Diversidade das modalidades, adequação às necessidades dos alunos, 
+                            bom relacionamento e um ambiente muito agradável são alguns
+                             dos destaques da academia.</p>
+                    </div>
+                </div>   
+            </section>
+
+            <section class="espaco-academia">
+                <div class="container">
+                    <div class="fotos-academia">
+                        <ul>
+                            <li class="grid-13"><img src="./img/nossa-foto1.jpg" alt="fotos do espaco academia"></li>
+                            <li class="grid-6"><img src="./img/nossa-foto2.jpg" alt="fotos do espaco academia"></li>
+                            <li class="grid-6"><img src="./img/nossa-foto3.jpg" alt="fotos do espaco academia"></li>
+                            <li class="grid-13"><img src="./img/nossa-foto4.jpg" alt="fotos do espaco academia"></li>
+                            <li class="grid-4"><img src="./img/nossa-foto5.jpg" alt="fotos do espaco academia"></li>
+                            <li class="grid-4"><img src="./img/nossa-foto6.jpg" alt="fotos do espaco academia"></li>
+                            <li class="grid-4"><img src="./img/nossa-foto7.jpg" alt="fotos do espaco academia"></li>
+                        </ul>
+                    </div>
+                    <div class="grid-5 action-white">
+                        <a href="modalidade.html" class="btn-action-white">Nossos Planos</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container">
+                <div class="localizacao">
+                    <div class="grid-20 titulo">
+                        <h2>Nossa <span class="destaque">Contato</span></h2>
+                    </div>
+                    <div class="ft-local ">
+                       <div id="retangulo1"></div>
+                        <div id="retangulo2"><h3>Centro</h3></div>
+                        <div id="retangulo3"></div>
+                        <div id="retangulo4"><h3>Batel</h3></div>
+                        <ul>
+                            <li class="grid-6"><img src="./img/mapa-centro.jpg" alt="mapa centro cidade"></li> 
+                            <li class="grid-6"><img src="./img/mapa-batel.jpg" alt="mapa centro cidade"></li> 
+                        </ul>
+                    </div>
+
+                    <div class="grid-6 endereco">
+                        <h3>Unidade <span class="end-bold">Centro</span> </h3>
+                        <ul>
+                            <li>R. Barão do Rio Branco, 139 - Centro,</li>
+                            <li>Curitiba / CEP 80.010-180</li>
+                            <li>41 2121.2564</li>
+                        </ul>
+                    </div>
+                    <div class="grid-6 endereco">
+                        <h3>Unidade <span class="end-bold2">Batel</span> </h3>
+                        <ul>
+                            <li>Av. do Batel, 1650 - Batel, </li>
+                            <li>Curitiba / CEP 80.420-090</li>
+                            <li>41 3085.5461</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contato">
+               <div class="form-local container">
+                    <h3 class="grid-6">formulário de <span>contato</span></h3>
+                    <form id="form-contato" class="contato_form grid-16">
+                        <label for="nome"></label>
+                        <input type="text" id="nome" placeholder="*Nome:" class="grid-6">
+                        <label for="email" ></label>
+                        <input type="text" id="email" placeholder="*E-mail:" class="grid-6">
+                        <label for="telefone"></label>
+                        <input type="text" id="telefone" placeholder="*Telefone:" class="grid-6">
+                        <label for="assunto"></label>
+                        <input type="text" id="assunto" placeholder="*assunto:" class="grid-16">
+                        <select name="unidades" class="selectsub grid-14"> 
+                            <option value="dest">*Destinatários</option>
+                            <option value="adm">-Administração</option>
+                            <option value="undcentro">-Unidade Centro</option>
+                            <option value="undbatel">-Unidade Batel</option>
+                        </select>
+                        <textarea id="espec" placeholder="*Mensagem" class="grid-15"></textarea>
+                        <p  class="grid-15">*Campos Obrigatórios! </p>
+                        <button type="submit" class="btn-enviar grid-3">Enviar</button>
+                    </form>
+                </div>
+            </section>
+        
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="grid-6 footer_atendimento ">
+                        <h3>ATENDIMENTO</h3>
+                        <ul>
+                            <li>(41) 3266-2365</li>
+                            <li>(41) 99594-5014 (WhatsApp)</li>
+                            <li>atendimento@cwbfitnessclub.com.br</li>
+                        </ul>
+                    </div>
+                    <div class="grid-6 footer_funcion">
+                        <h3>FUNCIONAMENTO</h3>
+                        <ul>
+                            <li> de 6h às 24h segunda a sexta </li>
+                            <li> de 9h às 16h aos sábados </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid-4 footer_midia">
+                        <h3>conecte-se</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/" target="_blank"><img src="./img/icones_socialmidia/face.svg" alt=""></a></li>
+                            <li><a href="https://www.instagram.com" target="_blank"><img src="./img/icones_socialmidia/Insta.svg" alt=""></a></li>
+                            <li><a href="https://www.twitter.com" target="_blank"><img src="./img/icones_socialmidia/twitter.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>  
+            
+            <div class="copyright">
+                <div class="container">
+                    <p class="grid-18 center">CWB Fitness Club 2020 - Alguns direitos reservados.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>
+

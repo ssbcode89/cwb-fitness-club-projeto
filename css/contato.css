@@ -1,0 +1,10 @@
+.contato-pag {
+    top: 100px;
+    height: 700px;
+}
+
+.contato-pag .destaque:after {
+    width: 167px;
+    margin-left: 398px;
+    margin-top: -7px;
+}

@@ -1,0 +1,166 @@
+.pl-area {
+    height: 407px;
+    width: 100%;
+    
+}
+
+.price-plan {
+    height: 700px;
+    width: 100%;
+    
+}
+.price-position {
+    position: relative;
+    left: 220px;
+}
+.pl-area h2 {
+    padding-top: 160px;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pl-area .destaque:after {
+    width: 145px;
+    margin-top: -2px;
+    margin-left: 421px;
+}
+
+.pl-area img {
+    padding-top: 32px;
+    width: 100%;
+}
+
+.price-plan {
+    background: #8E2126;
+    padding-top: 30px;
+}
+
+.price-plan h3{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 0.1em;
+   
+}
+
+.price-plan span {
+    font-weight: bold;
+}
+
+.price-plan p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+}
+
+#price-box {
+    position: relative;
+    width: 400px;
+    height: 381px;
+    background: #8E2126;
+    bottom: -50px;
+    border: solid 1px #fff;
+}
+
+.price-area h4{
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+
+.dest-pla:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin-left: 213px;
+    margin-top: 2px;
+}
+
+.price-area h5 {
+    
+    padding-top: 30px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.price-area h1 {
+    padding-top: 20px;
+    font-size: 64px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.comma{
+    position: relative;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    bottom: 25px;
+    left: 1px;
+}
+
+.comma-pri {
+    position: relative;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 15px;
+    right: 15px;
+    letter-spacing: 2px;
+    
+}
+
+.price-area ul {
+    padding-top: 20px;
+}
+
+.price-area ul li {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+#unidade-pl {
+    padding-top: 40px;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#unidade  {
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#cond-pay {
+    position: relative;
+    top: 500px;
+    font-size: 18px;
+}
+
+.price-position .action-white{
+    position: relative;
+    right: 510px;
+    top: 100px;
+}
+
+.price-area .btn-action-white:hover {
+    color: #000;
+    border-color: #000;
+}
